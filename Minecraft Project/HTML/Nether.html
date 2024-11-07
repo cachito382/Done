@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft - Nether</title>
+    <link rel="shortcut icon" href="../ICON/minecraft-hd-icon-mac-pc-minecraft-icon-512-png-icon.jpg">
+    <link rel="stylesheet" href="../CSS/Nether.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!--Barra de Navegación-->
+
+    <div>
+
+        <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #282424;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Nether.html"><img src="../ICON/Minecraft-Logo.png" width="222" lenght="38"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                      <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="../HTML/Overworld.html"><button type="button" class="btn btn-outline-info"> <img src="../ICON/overworld.png" width="25px" lenght="25px"><b style="font-family: Minecraft;">Overworld</b></button></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="../HTML/Nether.html"><button type="button" class="btn btn-outline-danger"><img src="../ICON/nether.png"width="25px" lenght="25px"><b style="font-family: Minecraft;">Nether</b></button></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="../HTML/End.html"><button type="button" class="btn btn-outline-warning"><img src="../ICON/end.png" width="25px" lenght="25px"><b style="font-family: Minecraft;">End</b></button></a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search" style="padding-left: 50px;">
+                        <input class="form-control me-2" type="search" placeholder="Escribe Algo" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><b style="font-family: Minecraft;">Buscar</b></button>
+                      </form>
+                  </div>
+
+              </div>
+          </nav>
+
+    </div>
+
+    <!--Informacion en cuadro-->
+
+      <div class="text-center">
+
+        <img src="../ICON/NETHER-21-10-2024.png" width="750" lenght="650" style="margin-top: 7%;">
+
+      </div>
+
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-sm">
+
+
+            <!--Inicio-->
+
+            <p class="titulos">El Nether</p>
+
+            <p> 
+
+              El Nether o Inframundo es una dimensión peligrosa que contiene fuego, lava, vegetación basada en hongos, 
+              muchas criaturas hostiles y estructuras exclusivas.
+
+            </p>
+
+            <!-- Lista de Contenidos -->
+
+            <p class="titulos">Contenidos </p>
+
+            <div class="contenedor">
+
+              <div id="lista">
+
+                <ol>
+  
+                  <li><a href="#acceso">Acceso</a></li>
+                  <li><a href="#características">Características</a></li>
+                  <li><a href="#medioambiente">Medio Ambiente</a>
+                    <ol>
+                      <li><a href="#biomas">Biomas</a></li>
+                      <li><a href="#estructurasgeneradas">Estructuras Generadas</a></li>
+                      <li><a href="#caracteristicasdelterreno">Caracteristicas del Terreno</a></li>
+                      <li><a href="#criaturas">Criaturas</a></li>
+                      <li><a href="#bloques">Bloques</a>
+                        <ol>
+                          <li><a href="#generadosnaturalmente">Generados Naturalmente</a></li>
+                          <li><a href="#creadosnaturalmente">Creados Naturalmente</a></li>
+                          <li><a href="#estructuras">Estructuras</a></li>
+                        </ol>
+                      </li>
+                    </ol>
+                  </li>
+                  <li><a href="#ambienteysupervivencia">Ambiente y Supervivencia</a>
+                    <ol>
+                      <li><a href="#primerospasos">Primeros Pasos</a></li>
+                      <li><a href="#recolectarexperiencia">Recolectar Experiencia</a></li>
+                      <li><a href="#buscandolafortaleza">Buscando la fortaleza</a></li>
+                      <li><a href="#comida">Comida</a></li>
+                    </ol>
+                  </li>
+  
+                </ol>
+  
+              </div>
+
+              <div >
+                <img src="../ICON/Piglin.png" style="padding-left: 10%;" class="img-fluid" width="300" lenght="500">
+              </div>
+
+            </div>
+
+            <!-- Acceso -->
+
+            <p class="titulos" id="acceso">Acceso</p>
+ 
+
+              <div class="contenedor">
+
+                <div>
+
+                  <p>
+                    Para acceder al Nether, el jugador debe construir un portal del Nether en la dimensión Superficie 
+                    (los portales creados en El End no se activan). Para crear el portal, el jugador primero debe 
+                    construir un marco de obsidiana rectangular, que varía en tamaño desde un mínimo de 4×5 hasta un 
+                    máximo de 23×23. Una vez que se construye el marco, se puede activar colocando fuego dentro del 
+                    marco, usando un mechero, carga ígnea, dispensadores o cualquier material que sea capaz de encender 
+                    el fuego.
+                  </p>
+
+                </div>
+
+                <div style="margin-right: 50px;">
+                  <img src="../ICON/PortalNether.webp"  width="350" lenght="250" >
+                </div>
+
+              </div>
+
+            <p>
+              <br>
+              El portal permite que la mayoría de las entidades (con la excepción del Wither, el Enderdragón y 
+              las entidades que viajan o son montadas por otra entidad) sean transportadas a un portal correspondiente 
+              en el Nether. En Supervivencia, el jugador debe permanecer en un portal del Nether durante 4 segundos 
+              para llegar al Nether. El jugador puede salir de un portal antes de que complete su animación para abortar
+              el teletransporte. El portal genera un efecto de sonido mientras el jugador está dentro. Si no hay un portal 
+              correspondiente, se crea un nuevo portal 4×5. El portal se puede destruir rompiendo el marco de obsidiana, 
+              por una explosión cercana o colocando agua en la superficie o lava en él con un cubo o dispensador. Cualquiera
+              de los bloques en las esquinas se puede destruir sin destruir el portal.
+
+            </p>
+
+            <!-- Caracteristicas -->
+
+            <p class="titulos" id="características">Características</p>
+
+            <p> 
+
+              La piedra base conforma la parte superior (debajo de la capa 127) y las 4 capas inferiores en un patrón aproximado, 
+              lo que esencialmente hace que los 127 bloques del Nether sean altos a diferencia de los 256 de la Superficie. En los
+              mundos infinitos de Java y Bedrock Edition, el Nether también es horizontalmente infinito. en Bedrock Edition, 
+              el límite de construcción del Nether es de 128 bloques, a pesar de ser 256 en todas las demás dimensiones.
+              <br><br>
+              El Nether no tiene ciclo de día y noche ni clima. Por lo demás, la luz funciona exactamente igual que en la Superficie
+              y El End.
+              <br><br>
+              La mayor parte de la flora del Nether se basa en hongos en lugar de plantas. La "hierba" Nether consiste en micelio 
+              del Nether especializado (conocido como "necelio"). El Nether presenta sus propios hongos únicos (incluida las verrugas 
+              del Nether), así como hongos enormes equivalentes que sirven como árboles. Los tallos de los hongos enormes funcionan 
+              como troncos. También están presentes una serie de enredaderas y raíces autóctonas.
+              <br><br>
+              La mayoría de las criaturas que se encuentran en el Nether son hostiles y potencialmente peligrosas.
+              <br><br>
+              Las ubicaciones en el Nether se correlacionan con las coordenadas de la Superficie, pero las distancias horizontales 
+              de la Superficie se reducen en una proporción de 8:1 para viajar en el Nether. Por lo tanto, viajar un bloque en el 
+              Nether significa viajar ocho bloques en la Superficie. Por ejemplo, en un escenario perfecto, un jugador que ingresa
+              a un portal en la Superficie en x=0, z=0 y viaja en el Nether a x=1000, z=1000 regresa a la Superficie en x=8000,
+              z=8000. Esto hace que los portales sean una herramienta útil para viajar largas distancias en la Superficie.
+              <br><br>
+              La mayoría de los objetos y bloques en el Nether funcionan igual que en la Superficie, <br> con algunas excepciones notables:
+            </p>
+
+            <div style="margin-left: 5%;margin-right: 7%;">
+
+              <ul>
+                
+                <li>Las camas explotan y provocan incendios cuando un jugador intenta dormir en una. Tiene un poder de explosión de 5. 
+                La explosión es mayor que la de TNT , que tiene un poder de explosión de 4. No se pueden usar como punto de reaparición.</li>
+  
+                <li>Se tiene que usar un nexo de reaparición cargado para reaparecer en el Nether, pero cuando se queda sin cargas, el jugador 
+                reaparece una vez más en la Superficie.</li>
+
+                <li>No hay forma de colocar agua líquida en el Nether sin el uso de comandos, excepto dentro de un caldero. Estos se pueden usar 
+                para apagar a un jugador, pero es difícil centrarse en ellos.
+                  
+                  <ul>
+
+                    <li>No hay forma de colocar agua líquida en el Nether sin el uso de comandos, excepto dentro de un caldero. Estos se pueden usar 
+                    para apagar a un jugador, pero es difícil centrarse en ellos.</li>
+
+                    <li>El hielo que se derrite o se rompe en el Nether no produce agua.</li>
+
+                    <li>Una esponja mojada se convierte instantáneamente en una esponja normal cuando se coloca.</li>
+
+                    <li>Si de alguna manera se coloca usando trampas o cuando se coloca dentro de un caldero, el agua adquiere un color marrón rojizo.</li>
+
+                  </ul>
+
+                </li>
+
+                <li>La lava fluye dos veces más lejos (ocho bloques) y seis veces más rápido en el Nether en comparación con la Superficie, básicamente 
+                las características de flujo equivalentes del agua de la Superficie.</li>
+
+                <li>Los bloques de césped y las hojas adquieren un color pardusco de aspecto muerto porque el Nether es seco y caliente.</li>
+
+                <li>Los mapas generan un patrón estático marrón grisáceo. El indicador de dirección del jugador gira aleatoriamente; su 
+                ubicación sigue siendo relativa a la ubicación del jugador en el Nether, excepto en New Nintendo 3DS Edition, donde siempre 
+                está en el centro del mapa. Utilizable significativamente para viajes por el océano de lava a través de lavagantes. Poner 
+                el mapa en la mano izquierda minimiza el mapa para ayudar a ver la pisada del usuario.</li>
+
+                <li>Los relojes giran salvajemente, por lo que es imposible saber la hora mientras se está en el Nether. Las brújulas también giran 
+                violentamente a menos que estén conectadas a una magnetita, a la que luego apuntan.</li>
+
+                <li>Los gólems de nieve rápidamente sufren daños por fuego y mueren, debido a que el Nether está seco y caliente. Sin embargo, 
+                pueden sobrevivir si tienen el efecto de cuerpo ignífugo. </li>
+  
+              </ul>
+
+            </div>
+
+            <!-- Medio Ambiente -->
+
+            <p class="titulos" id="medioambiente">Medio Ambiente</p>
+
+            <p>
+            
+              El Nether presenta un terreno único similar a una cueva sin cielo. La lava y el fuego son peligros comunes en todas partes del Nether.
+              Las áreas alejadas del jugador están envueltas en niebla. A diferencia de la Superficie, la forma del terreno en el Nether es independiente 
+              de la distribución del bioma; en cambio, el bioma altera el material de la superficie y agrega características del terreno al terreno de netherrack.
+
+            </p>
+
+            <!-- 1 Tabla -->
+
+            <!-- Biomas -->
+
+            <p class="titulos" id="biomas">Biomas</p>
+
+            <p>
+              El Nether está dividido en varios biomas al igual que la Superficie, cada uno con un terreno, criaturas, estructuras, ambiente, etc. únicos. 
+              Actualmente hay cinco biomas en el Nether.
+            </p>
+
+            <div style="margin-left: 35px;margin-right: 35px;">
+
+              <table class="table table-dark table-bordered">
+
+                <tr>
+                  <th>Nombre del Bioma</th>
+                  <th>Descripción</th>
+                  <th>Imagen</th>
+                </tr>
+
+                <tr>
+                  <th>Desiertos del Nether o Ruinas del Nether</th>
+                  <td style="text-align: left;">Inicialmente el único bioma en la dimensión 
+                    antes de la Nether Update, los desiertos del 
+                    Nether es el bioma más común en el Nether. 
+                    La superficie está compuesta por netherrack 
+                    descubierta, exponiendo más vetas que cualquier 
+                    otro bioma. Los piglins zombificados dominan 
+                    este bioma y se pueden encontrar en hordas de hasta 4.</td>
+                  <td><img src="../ICON/img1.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Valle de almas</th>
+                  <td style="text-align: left;">
+                    Este bioma desértico es peligroso, no solo por las enormes cavernas y la oscuridad 
+                    que pueden permitir que aparezcan muchos ghasts y esqueletos, sino también por los 
+                    depósitos de arena de almas que ralentizan al jugador.
+                    <br>
+                  </td>
+                  <td><img src="../ICON/img2.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Bosque carmesí</th>
+                  <td style="text-align: left;">
+                    El bioma lleva el nombre de su color rojo y está cubierto por las copas de hongos enormes parecidos 
+                    a árboles. Unas bestias, parecidas al cerdo llamadas hoglins caminan por el terreno de necelio, 
+                    mientras que las tribus de piglins los cazan para alimentarse.</td>
+                  <td><img src="../ICON/img3.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Bosque distorsionado</th>
+                  <td style="text-align: left;">
+                    Este bioma de tipo bosque tiene la mayor cantidad de flora en la dimensión de el Nether (debido a los rastrojos 
+                    del Nether adicionales que solo se encuentran dentro del bioma) pero también solo tiene dos criaturas, los 
+                    endermans y los lavagantes ocasionales.</td>
+                  <td><img src="../ICON/img4.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Deltas de basalto</th>
+                  <td style="text-align: left;">
+                    Con grandes cantidades de cubos de magma y bloques de magma, este es uno de los biomas más peligrosos del juego.
+                    El terreno consta de formaciones de basalto escarpadas y puntiagudas junto con los deltas más planos. Cuando el
+                    bioma choca con un océano de lava, se forman archipiélagos de basalto y grava.</td>
+                  <td><img src="../ICON/img5.webp"></td>
+                </tr>
+                
+              </table>
+
+            </div>
+
+            <!-- 2 Tabla -->
+
+            <!-- Estructuras Generadas -->
+
+            <p class="titulos" id="estructurasgeneradas">Estructuras Generadas</p>
+
+            <p>
+              El Nether contiene una variedad de estructuras generadas únicas. 
+              Aunque igualmente vasto, contiene muchos menos tipos de estructuras 
+              generadas que la Superficie.
+            </p>
+
+            <div style="margin-left: 35px;margin-right: 35px;">
+
+              <table class="table table-dark table-bordered">
+
+                <tr>
+                  <th>Nombre del Bioma</th>
+                  <th>Descripción</th>
+                  <th>Imagen</th>
+                </tr>
+
+                <tr>
+                  <th>Fortaleza del Nether</th>
+                  <td>
+                    Las fortalezas del Nether son estructuras grandes en forma de castillo que se componen de ladrillos del Nether. 
+                    Esta estructura se encuentra a menudo tendiendo un puente sobre océanos de lava o haciendo túneles a través de la
+                    netherrack.
+                    <br><br>
+                    Esta estructura es el único lugar donde se generan esqueletos del Wither y blazes, lo que convierte a las fortalezas 
+                    en la puerta de entrada a ambos jefes del juego: el Enderdragón y el Wither. Las fortalezas también contienen generadores
+                     de blaze, así como pequeñas granjas de verrugas del Nether donde se pueden obtener verrugas del Nether.
+                    <br><br>
+                    Se pueden encontrar fortalezas del Nether en todos los biomas del Nether.</td>
+                  <td><img src="../ICON/img6.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Fósil del Nether</th>
+                  <td>
+                    Los fósiles del Nether son estructuras compuestas por bloques de huesos. Estas estructuras tienen 14 diseños diferentes.
+                    <br><br>
+                    A diferencia de los fósiles en la Superficie, la mena de carbón no se genera dentro de estos fósiles.
+                    <br><br>
+                    Esta estructura se genera exclusivamente dentro de los biomas del valle de almas.</td>
+                  <td><img src="../ICON/img7.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Bastión en ruinas</th>
+                  <td>
+                    Los bastiones en ruinas son grandes fortificaciones formadas por piedra negra, ladrillos de piedra negra y basalto. 
+                    Dentro de estas estructuras se pueden encontrar una gran cantidad de bloques de oro y cofres con botín. Se generan 
+                    en cuatro variantes distintas, cada una con su propia estructura y botín únicos.
+                    <br><br>
+                    Estas estructuras están habitadas por los piglins y los piglins brutos, y en ciertas variantes también por hoglins.
+                    <br><br>
+                    Estas estructuras se generan dentro de cualquier bioma del Nether, excepto los deltas de basalto.</td>
+                  <td><img src="../ICON/img8.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Portal en ruinas</th>
+                  <td>
+                    Una estructura que contiene lo que parece ser un portal del Nether destruido y varios tipos de materiales de 
+                    piedra o piedra negra, cuando se genera en la Superficie o el Nether, respectivamente. La netherrack se genera
+                    en el suelo alrededor del portal, y un cofre que contiene botín se genera con la estructura.
+                    <br><br>
+                    Estas estructuras se pueden encontrar en cualquier bioma de la Superficie y el Nether.</td>
+                  <td><img src="../ICON/img9.webp"></td>
+                </tr>
+                
+              </table>
+
+            </div>
+
+            <!-- 3 Tabla -->
+
+            <!-- Caracteristicas del Terreno-->
+
+            <p class="titulos" id="caracteristicasdelterreno">Características del terreno</p>
+
+            <p>
+              El Nether tiene muchas características del terreno diferentes que se generan dentro de los biomas del Nether.
+            </p>
+
+            <div style="margin-left: 35px;margin-right: 35px;">
+
+              <table class="table table-dark table-bordered">
+
+                <tr>
+                  <th>Nombre del Bioma</th>
+                  <th>Descripción</th>
+                  <th>Imagen</th>
+                </tr>
+
+                <tr>
+                  <th>Océano de lava</th>
+                  <td>
+                    Los océanos de lava se generan en el nivel 31 e inferior en todos los biomas del Nether.
+                    <br><br>
+                    Los lavagantes se pueden encontrar caminando a través de estos mares.</td>
+                  <td><img src="../ICON/img10.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Cúmulo de piedra luminosa</th>
+                  <td>
+                    Los cúmulos de piedra luminosa se generan en el techo del Nether en todos los biomas. </td>
+                  <td><img src="../ICON/img11.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Pilar de basalto</th>
+                  <td>
+                    Los pilares de basalto se generan en los biomas de los valles de almas y en los océanos de lava presentes allí.</td>
+                  <td><img src="../ICON/img12.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Delta</th>
+                  <td>
+                    Los deltas son pozos de lava restringida y bloques de magma que se encuentran entre el terreno de los biomas de deltas de basalto.</td>
+                  <td><img src="../ICON/img13.webp"></td>
+                </tr>
+
+                <tr>
+                  <th>Lava atrapada</th>
+                  <td>
+                    Los bloques individuales de lava están enterrados en la Netherrack en todos los biomas del Nether. 
+                    Estos son particularmente peligrosos cuando se mina en el Nether, ya que la lava puede fluir rápidamente 
+                    y abrumar al jugador cuando se descubre.</td>
+                  <td><img src="../ICON/img14.webp"></td>
+                </tr>
+                
+              </table>
+
+            </div>
+
+            <!-- Criaturas -->
+
+            <p class="titulos" id="criaturas">Criaturas</p>
+
+            <p> 
+
+              El Nether es el hogar de una gran cantidad de criaturas, la mayoría de las cuales son a prueba de fuego y lava. 
+              Los esqueletos, pollos y endermans son las únicas criaturas de la Superficie que pueden generarse naturalmente en el 
+              Nether; en Java Edition,los piglins bebés zombificados pueden aparecer como jinetes avícolas.
+              <br><br>
+              Otras criaturas de la Superficie no se generan de forma natural en el Nether, pero pueden teletransportarse a través de portales 
+              (con la excepción de el Enderdragón y el Wither).
+
+            </p>
+
+
+            <!--Tabla de Mobs-->
+
+            <div align="center" style="margin-top: 50px;">
+
+              <table style="height: auto;">
+
+                <tr>
+  
+                  <td><img src="../ICON/BlazeFace.webp" alt=""></td>
+  
+                  <td><img src="../ICON/ZombifiedPiglinJockeyFace.webp" alt=""></td>
+  
+                  <td><img src="../ICON/EndermanFace.webp" alt=""></td>
+  
+                  <td><img src="../ICON/GhastFace.webp" alt=""></td>
+  
+  
+                </tr>
+
+                <tr>
+
+                  <td><p>Blaze</p></td>
+
+                  <td><p>Jinete Avicola</p></td>
+
+                  <td><p>Enderman</p></td>
+
+                  <td><p>Ghast</p></td>
+
+                </tr>
+  
+                <tr>
+
+                  <td><img src="../ICON/HoglinFace.webp" alt=""></td>
+  
+                  <td><img src="../ICON/MagmaCubeFace.webp" alt=""></td>
+
+                  <td><img src="../ICON/PiglinFace.webp" class="img-fluid"></td>
+  
+                  <td><img src="../ICON/PiglinBruteFace.webp" alt=""></td>
+
+                </tr>
+
+                <tr>
+
+                  <td><p>Hoglin</p></td>
+
+                  <td><p>Cubo de Magma</p></td>
+
+                  <td><p>Piglin</p></td>
+
+                  <td><p>Piglin Bruto</p></td>
+
+                </tr>
+
+
+                <tr>
+  
+  
+                  <td><img src="../ICON/SkeletonFace.webp" alt=""></td>
+  
+                  <td><img src="../ICON/StriderFace.webp" alt=""></td>
+  
+                  <td><img src="../ICON/WitherSkeletonFace.webp" alt=""></td>
+  
+                  <td><img src="../ICON/ZombifiedPiglinFace.webp" alt=""></td>
+  
+                </tr>
+  
+                <tr>
+
+                  <td><p>Esqueleto</p></td>
+
+                  <td><p>Lavagante</p></td>
+                  
+                  <td><p>Esqueleto Whiter</p></td>
+
+                  <td><p>Piglin Zombificado</p></td>
+
+                </tr>
+
+              </table>
+
+            </div>
+
+            <!-- Bloques -->
+
+            <p class="titulos" id="bloques">Bloques</p>
+
+            <!-- Generados Naturalmente-->
+
+            <p class="titulos" id="generadosnaturalmente">Generados Naturalmente</p>
+
+            <p>Los bloques generados naturalmente incluyen aquellos que se crean a través de la semilla del mundo.</p>
+
+            <div class="contenedor" style="margin-top: 25px;">
+
+              <div id="lista">
+
+                <ul>
+                  <li>Escombros Ancestrales</li>
+                  <li>Basalto</li>
+                  <li>Bedrock</li>
+                  <li>Piedra Negra</li>
+                  <li>Bloque de Huesos</li>
+                  <li>Fuego</li>
+                  <li>Hongo Carmesí</li>
+                  <li>Hongo Distorsionado</li>
+                  <li>Piedra Luminosa</li>
+                  <li>Grava</li>
+                  <li>Lava</li>
+                  <li>Bloque de Magma</li>
+                  <li>Champiñón Marrón</li>
+                  <li>Champiñón Rojo</li>
+                  <li>Mena de oro del Nether</li>
+                  <li>Mena de Cuarzo del Nether</li>
+                </ul>
+
+              </div>
+
+              <div style="margin-left: 12%;">
+                
+                <ul>
+                  <li>Rastrojo del Nether</li>
+                  <li>Netherrack</li>
+                  <li>Necelio Carmesí</li>
+                  <li>Necelio Distorsionado</li>
+                  <li>Raíces Carmesí</li>
+                  <li>Raíces Distorsionadas</li>
+                  <li>Brillongo</li>
+                  <li>Fuego de Almas</li>
+                  <li>Arena de Almas</li>
+                  <li>Tierra de Almas</li>
+                  <li>Tallo Carmesí</li>
+                  <li>Tallo Distorsionado</li>
+                  <li>Enredaderas Retorcidas</li>
+                  <li>Enredaderas Lacrimosas</li>
+                  <li>Bloque de Verrugas del Nether</li>
+                  <li>Bloque de Verrugas Distorsionadas</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <!-- Creados Naturalmente -->
+
+            <p class="titulos" id="creadosnaturalmente">Creados Naturalmente</p>
+
+            <p>
+              Los bloques creados naturalmente se crean a través de una combinación de eventos 
+              que llevan a que estos bloques sean colocados por causas naturales, no por el jugador.
+            </p>
+
+            <div class="contenedor" style="margin-top: 25px;">
+
+              <div id="lista">
+
+                <ul>
+                  <li>Basalto</li>
+                  <li>Bedrock</li>
+                  <li>Lava</li>
+                </ul>
+
+              </div>
+
+              <div style="margin-left: 12%;">
+                
+                <ul>
+                  <li>Portal del Nether</li>
+                  <li>Netherrack</li>
+                  <li>Obsidiana</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <!-- Estructuras -->
+
+            <p class="titulos" id="estructuras">Estructuras</p>
+
+            <p>
+              Estos bloques se generan como parte de fortalezas del Nether, bastiones en ruinas y 
+              portales en ruinas, pero solo cuando la opción "estructuras generadas" está activada.
+            </p>
+
+            <div class="contenedor" style="margin-top: 25px;">
+
+              <div id="lista">
+
+                <ul>
+                  <li>Basalto</li>
+                  <li>Basalto Pulido</li>
+                  <li>Piedra Negra</li>
+                  <li>Losa de Piedra Negra</li>
+                  <li>Escaleras de Piedra Negra</li>
+                  <li>Muro de Piedra Negra</li>
+                  <li>Piedra Negra Áurea</li>
+                  <li>Piedra Negra Pulida</li>
+                  <li>Losa de Piedra Negra Pulida</li>
+                  <li>Escaleras de Piedra Negra Pulida</li>
+                  <li>Ladrillos de Piedra Negra Pulida</li>
+                  <li>Losa de Ladrillos de Piedra Negra Pulida</li>
+                  <li>Escaleras de Ladrillos de Piedra Negra Pulida</li>
+                  <li>Muro de Ladrillos de Piedra Negra Pulida</li>
+                  <li>Ladrillos de Piedra Negra Pulida Agrietados</li>
+                  <li>Piedra Negra Pulida Cincelada</li>
+                  <li>Bloque de Oro</li>
+                </ul>
+
+              </div>
+
+              <div style="margin-left: 12%;">
+                
+                <ul>
+                  <li>Cadena</li>
+                  <li>Cofre</li>
+                  <li>Obsidiana Llorosa</li>
+                  <li>Piedra Luminosa</li>
+                  <li>Farol</li>
+                  <li>Lava</li>
+                  <li>Bloque de Magma</li>
+                  <li>Ladrillos del Nether</li>
+                  <li>Valla de Ladrillos del Nether</li>
+                  <li>Escaleras de Ladrillos del Nether</li>
+                  <li>Verruga del Nether</li>
+                  <li>Netherrack</li>
+                  <li>Obsidiana</li>
+                  <li>Bloque de Cuarzo</li>
+                  <li>Cuarzo Liso</li>
+                  <li>Losa de Cuarzo Liso</li>
+                  <li>Arena de Almas</li>
+                  <li>Generados de Mobs</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <!-- Ambiente y Supervivencia -->
+
+            <p class="titulos" id="ambienteysupervivencia">Ambiente y Supervivencia</p>
+
+            <!-- Primeros Pasos-->
+
+            <p class="titulos" id="primerospasos">Primeros pasos</p>
+
+            <p>
+              Debes tener en cuenta que en el Nether viven criaturas más peligrosas que las del mundo normal. 
+              Debes estar preparado y bien protegido (es recomendado el uso del arco para combatir más fácilmente
+              a los ghasts, una criatura fantasmal del Nether). Es imprescindible llevar un mechero al Nether, ya 
+              que una bola de fuego disparada por un ghast destruiría la masa gaseosa del portal, con lo que el 
+              regreso a casa será complicado, a no ser que lleves el mechero para encender el portal nuevamente. 
+              También puedes llevar mechero para construir el mechero, o puedes hacer trueque con los piglins para
+              obtener cargas igneas o pepitas de hierro. Se recomienda poseer una parte de armadura de oro como un
+              peto o un casco ya que los piglins atacarán a cualquier jugador que no tenga equipado algo de oro. 
+              Otro problema a tener en cuenta es el fuego: casi todos los enemigos del Nether son inmunes a éste.
+              Es recomendable apagar las llamas que molesten por el camino para poder organizar mejor las retiradas,
+              y sustituirlas por antorchas que irradien luz. Además, dar un paso por el Nether equivale a dar 8 en 
+              la Superficie.
+            </p>
+
+            <!-- Recolectar Experiencia -->
+
+            <p class="titulos" id="recolectarexperiencia">Recolectar Experiencia</p>
+
+            <p>
+              El Nether también se puede usar para recolectar experiencia de los enemigos caídos, pero es más fácil 
+              recogiendo cuarzo del Nether. Dicho mineral da mucha experiencia al picarlo y es muy común. Los piglins 
+              zombificados son oponentes peligrosos que van en grupo; no les afecta el fuego, producen mucho daño y, 
+              como diferencia fundamental, su ataque melee es de 2 casillas y no de 1 como el rango del jugador. Matarlos
+              da recompensas como pepitas de oro, lingotes de oro y armas de dicho material. Debes tener en cuenta que 
+              aunque sean pacíficos y no te ataquen (a menos que los provoques), los piglins zombificados también atacan 
+              en grupo, es decir, si agredes a uno te atacan todos. Para tener éxito, tu equipamiento es fundamental: debes 
+              ir mínimamente protegido con una armadura completa, aunque sea sólo de cuero, y usar una espada de piedra o 
+              superior. Para contrarrestar el número, los jugadores más prudentes suelen construir «búnkers» donde refugiarse 
+              para recuperar energía y curarse, y donde apelotonar enemigos que puedan ser atacados a través de huecos o rendijas
+              (¡Ten en cuenta para ello que los piglins zombificados tienen tu mismo rango de ataque!).
+            </p>
+
+            <!-- Buscando la Fortaleza -->
+
+            <p class="titulos" id="buscandolafortaleza">Buscando la Fortaleza</p>
+
+            <p>
+              La búsqueda de fortalezas del Nether puede ser larga e infructuosa si no sabes cómo. A no ser que tengas mucha 
+              suerte, es casi imposible que los halles cerca de tu zona de despliegue. Lo único que se sabe de estas estructuras
+              , que se generan siempre en el eje «Z» de coordenadas, es que siempre estarán al sur o al norte, con lo que solo 
+              deberás excavar o avanzar en esa misma dirección. Lo mejor que puedes hacer, entonces, es irte hacia algún punto 
+              de coordenadas Z (Por ejemplo 56) y caminar derecho por él, de forma que las coordenadas X vayan cambiando.
+            </p>
+
+            <!-- Comida -->
+
+            <p class="titulos" id="comida">Comida</p>
+
+            <p style="margin-bottom: 100px;">
+              En el nether existen varias fuentes de comida: la primera y menos recomendable es cazando piglins zombificados con 
+              los cuales obtendrás carne podrida. La segunda fuente es buscar champiñones y crear un estofado de champiñones; otra
+              forma un poco más peligrosa pero efectiva es cazando hoglins, los cuales te darán chuletas de cerdo crudas, por lo 
+              cual se recomienda utilizar un mechero para quemarlo y de esa manera obtener chuletas de cerdo cocinadas.
+            </p>
+
+
+          </div>
+        </div>
+      </div>
+
+      <footer class="bd-footer bg-{#282424}-body-tertiary" style="background-color: #282424;">
+        <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+
+                  <ul class="list-unstyled small">
+
+                    <li class="mb-2">
+
+                      <p>Hecho por : </p>
+                      <p>Lautaro Cotti <img src="../ICON/overworld.png" width="25px" lenght="25px"></p>
+                      <p>Santiago Alcibar <img src="../ICON/nether.png"width="25px" lenght="25px"></p>
+                      <p>Marilyn Ruth Ale <img src="../ICON/end.png" width="25px" lenght="25px"></p>
+
+                    </li>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

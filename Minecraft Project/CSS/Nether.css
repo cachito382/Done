@@ -1,0 +1,90 @@
+
+@font-face{
+
+    font-family:"Minecraft";
+    src:url(../FONT/Minecraft.ttf);
+
+}
+
+body{
+    background-image: url(../IMG/NetherArtwork.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+nav.navbar.navbar-expand-lg{
+
+    --bs-navbar-padding-x: 2.75rem;
+    --bs-navbar-padding-y: 1.05rem;
+}
+
+button.btn-outline-warning {
+    --bs-btn-color: #ac07ff;
+    --bs-btn-border-color: #ac07ff;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ac07ff;
+    --bs-btn-hover-border-color: #ac07ff;
+    --bs-btn-focus-shadow-rgb: 255, 193, 7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg:  #ac07ff;
+    --bs-btn-active-border-color:  #ac07ff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color:  #ac07ff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color:  #ac07ff;
+    --bs-gradient: none;
+}
+
+button.btn-outline-danger {
+    --bs-btn-hover-color: #000;
+}
+
+button.navbar-toggler{
+
+    background-color: #737070;
+}
+
+div.container.text-left{
+    
+    max-width: 60%;
+    background-image: url(../IMG/Netherack1\ \(1\).png);
+}
+
+
+p{
+    padding-left: 30px; 
+    padding-right: 30px  ; 
+    color: white;
+    font-family: Minecraft ;
+    font-size: 18px;
+}
+
+ol,li{
+    
+    color: white;
+    font-family: Minecraft ;
+    font-size: 18px; 
+}
+
+#lista{
+    padding-left: 30px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.titulos{
+    color: #de1529;
+    font-size: 28px; 
+    margin-top: 30px;
+}
+
+table,tr,td,th{
+    color: white;
+    font-family: Minecraft ;
+    font-size: 18px;
+    text-align: center;
+}

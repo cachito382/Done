@@ -1,0 +1,119 @@
+@font-face{
+
+    font-family:"Minecraft";
+    src:url(../FONT/Minecraft.ttf);
+
+}
+@font-face{
+
+    font-family:"Minecraft-Solid";
+    src:url(../FONT/MinecraftFifty-Solid.otf);
+
+}
+
+nav.navbar.navbar-expand-lg{
+
+    --bs-navbar-padding-x: 2.75rem;
+    --bs-navbar-padding-y: 1.05rem;
+}
+
+button.btn-outline-warning {
+    --bs-btn-color: #ac07ff;
+    --bs-btn-border-color: #ac07ff;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ac07ff;
+    --bs-btn-hover-border-color: #ac07ff;
+    --bs-btn-focus-shadow-rgb: 255, 193, 7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg:  #ac07ff;
+    --bs-btn-active-border-color:  #ac07ff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color:  #ac07ff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color:  #ac07ff;
+    --bs-gradient: none;
+}
+
+button.btn-outline-danger {
+    --bs-btn-hover-color: #000;
+}
+
+button.navbar-toggler{
+
+    background-color: #737070;
+}
+
+ol,li{
+    
+    color: white;
+    font-family: Minecraft ;
+    font-size: 19px; 
+}
+
+.contenedor{
+    display: flex;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    gap: 0; /* Sin espacio entre los elementos */
+}
+
+p{
+
+    color: white;
+    font-family: Minecraft ;
+    font-size: 21px;
+}
+
+#fondopiedrafin{
+
+    color: black;
+    font-family: Minecraft ;
+    font-size: 21px;
+
+}
+
+.titulo{
+    padding-top: 25px;
+    font-family:Minecraft-Solid ;
+    color: #ac07ff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulos{
+    color: #ac07ff;
+    font-size: 28px; 
+    margin-top: 30px;
+}
+
+
+.titulo2{
+    padding-top: 5px;
+    font-family:Minecraft-Solid ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.texton{
+    font-family: Minecraft ;
+    font-size: 18px;
+    color: #000;
+}
+
+.contenedor1{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+table,tr,td,th{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+

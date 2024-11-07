@@ -1,0 +1,102 @@
+@font-face{
+
+    font-family:"Minecraft";
+    src:url(../FONT/Minecraft.ttf);
+
+}
+@font-face{
+
+    font-family:"Minecraft-Solid";
+    src:url(../FONT/MinecraftFifty-Solid.otf);
+
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+nav.navbar.navbar-expand-lg{
+
+    --bs-navbar-padding-x: 2.75rem;
+    --bs-navbar-padding-y: 1.05rem;
+}
+
+button.btn-outline-warning {
+    --bs-btn-color: #ac07ff;
+    --bs-btn-border-color: #ac07ff;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ac07ff;
+    --bs-btn-hover-border-color: #ac07ff;
+    --bs-btn-focus-shadow-rgb: 255, 193, 7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg:  #ac07ff;
+    --bs-btn-active-border-color:  #ac07ff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color:  #ac07ff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color:  #ac07ff;
+    --bs-gradient: none;
+}
+
+button.btn-outline-danger {
+    --bs-btn-hover-color: #000;
+}
+
+button.navbar-toggler{
+
+    background-color: #737070;
+}
+
+ol,li{
+    
+    color: white;
+    font-family: Minecraft ;
+    font-size: 18px; 
+}
+p{
+
+    color: white;
+    font-family: Minecraft ;
+    font-size: 18px;
+}
+
+.titulo{
+    padding-top: 25px;
+    font-family:Minecraft-Solid ;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo2{
+    padding-top: 5px;
+    font-family:Minecraft-Solid ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.texton{
+    font-family: Minecraft ;
+    font-size: 18px;
+    color: #000;
+}
+
+.parallax {
+    height: 1vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax img {
+    position: absolute;
+    margin-top: 10px;
+    pointer-events: none;
+    top: 0;
+}
+
+.card{
+    color: #000;
+}
